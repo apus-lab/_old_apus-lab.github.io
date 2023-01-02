@@ -1,0 +1,21 @@
+- name: Team
+  link: /team/
+- name: News
+  link: /news/
+- name: Research
+  link: /research/
+  dropdown: 
+    - name: A
+      link: /a/
+    - name: B
+      link: /b/
+- name: Publications
+  link: /publications/
+- name: Resources
+  dropdown:
+    - name: Courses
+      link: /courses/
+    - name: B
+      link: /b/
+- name: Join Us!
+  link: /joinus/
