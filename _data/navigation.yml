@@ -12,10 +12,9 @@
 - name: Publications
   link: /publications/
 - name: Resources
+  link: /courses/
   dropdown:
     - name: Courses
       link: /courses/
-    - name: B
-      link: /b/
 - name: Join Us!
   link: /joinus/
