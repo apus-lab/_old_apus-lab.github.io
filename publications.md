@@ -29,6 +29,9 @@ hide_footer: false
    list-style-type: none;
 }
 </style>
+# 2023
+{% bibliography --query @*[year=2023] %}
+
 # 2022
 {% bibliography --query @*[year=2022] %}
 
@@ -42,7 +45,7 @@ hide_footer: false
 {% bibliography --query @*[year=2019] %}
 
 # 2018
-{% bibliography --query @*[year=2017] %}
+{% bibliography --query @*[year=2018] %}
 
-# 2017
-{% bibliography --query @*[year<=2017] %}
+# Before 2018
+{% bibliography --query @*[year<2018] %}
