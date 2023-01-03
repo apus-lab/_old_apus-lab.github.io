@@ -2,6 +2,7 @@
 title: Join Us!
 subtitle: to model, analyze, optimize, and control future aerial vehicles
 layout: page
+permalink: 
 show_sidebar: false
 hide_footer: true
 ---
