@@ -5,12 +5,13 @@ subtitle:
 categories: news
 description:
 summary: |-
-    Nonlinear dynamical systems of another world.
+    <img src="/img/post_2105.png" width="300"/>
 author: "Daning Huang"
 published: true
 sidebar:  true
 link-new-tab: true
 hide_footer: true
+tags: Publication
 ---
 
 Nonlinear dynamical systems are universal in the world of engineering. Such systems have distinct features, such as bifurcations and strange attractors, that are non-existent in linear systems. A famous example of bifurcation in aerospace engineering is the flutter of aircraft – when it happens, the aircraft may be close to crash.
