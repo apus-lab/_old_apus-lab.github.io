@@ -2,9 +2,6 @@
   link: /team/
 - name: News
   link: /news/
-  dropdown: 
-    - name: By tags
-      link: /tags/
 - name: Research
   link: /research/
   dropdown: 
