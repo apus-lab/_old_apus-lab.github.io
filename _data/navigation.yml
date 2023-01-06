@@ -5,10 +5,14 @@
 - name: Research
   link: /research/
   dropdown: 
-    - name: A
+    - name: High-Fidelity Multi-Physics
       link: /a/
-    - name: B
+    - name: Scientific Data Analysis
       link: /b/
+    - name: Reduced-Order Modeling
+      link: /c/
+    - name: Control and Autonomy
+      link: /d/
 - name: Publications
   link: /publications/
 - name: Resources

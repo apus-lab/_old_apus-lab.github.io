@@ -1,0 +1,34 @@
+{% if page.callouts %}
+    {% assign callouts=site.data.[page.callouts] %}
+    <section class="hero {% if callouts.height %} {{ callouts.height }} {% else %} is-medium {% endif %} {{ callouts.style }}">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-one-quarter is-centered">
+                    {% for callout in callouts.items %}
+                    {% assign callout_link=callout.call_to_action_link | relative_url %}
+                        <div class="column is-4 has-text-centered">
+                            <p class="title is-5">
+                                <a href="{{ callout_link }}"> {{ callout.title }}</a>
+                            </p>
+                            <p class="subtitle is-5">{{ callout.subtitle }}</p>
+
+                            {% if callout.description %}
+                            <div class="content">
+                                <p>
+                                    <a href="{{ callout_link }}"> {{ callout.description | newline_to_br }}</a>
+                                </p>
+                            </div>
+                            {% endif %}
+
+                            {% if callout.icon %}
+                            <div>
+                                <a href="{{ callout_link }}"> <img src="{{ callout.icon }}" height="100"/></a>
+                            </div>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+{% endif %}

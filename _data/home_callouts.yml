@@ -1,0 +1,44 @@
+style: is-light
+height: is-small
+items:
+  - title: High-Fidelity Multi-Physics
+    subtitle:
+    icon: /img/post_2112.png
+    description: >
+      Ever-high fidelity in
+
+      ever-expanding disciplines with
+      
+      multi-domain & multi-spatiotemporal-scale
+    call_to_action_link: /page-1/
+
+  - title: Scientific Data Analysis
+    subtitle:
+    icon: /img/home_bmd.png
+    description: >
+      Knowledge generation from
+
+      spatiotemporal data analysis of
+
+      interacting physics
+    call_to_action_link: /page-2/
+
+  - title: Reduced-Order Modeling
+    subtitle:
+    icon: /img/post_2108.png
+    description: >
+      Bridge analysis, optimization and control
+
+      by integrating
+
+      physics, data and topology
+    call_to_action_link: /page-3/
+
+  - title: Control and Autonomy
+    subtitle:
+    icon: /img/home_qbit.png
+    description: >
+      Design impacts autonomy,
+      
+      Autonomy impacts design
+    call_to_action_link: /page-4/
