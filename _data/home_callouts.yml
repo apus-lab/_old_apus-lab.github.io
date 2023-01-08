@@ -10,7 +10,7 @@ items:
       ever-expanding disciplines with
       
       multi-domain & multi-spatiotemporal-scale
-    call_to_action_link: /page-1/
+    call_to_action_link: /research/#high-fidelity-multi-physics
 
   - title: Scientific Data Analysis
     subtitle:
@@ -21,7 +21,7 @@ items:
       spatiotemporal data analysis of
 
       interacting physics
-    call_to_action_link: /page-2/
+    call_to_action_link: /research/#scientific-data-analysis
 
   - title: Reduced-Order Modeling
     subtitle:
@@ -32,7 +32,7 @@ items:
       by integrating
 
       physics, data and topology
-    call_to_action_link: /page-3/
+    call_to_action_link: /research/#reduced-order-modeling
 
   - title: Control and Autonomy
     subtitle:
@@ -41,4 +41,4 @@ items:
       Design impacts autonomy,
       
       Autonomy impacts design
-    call_to_action_link: /page-4/
+    call_to_action_link: /research/#control-and-autonomy

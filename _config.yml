@@ -66,6 +66,8 @@ paginate_path: "/news/page:num"
 collections:
   tagging:
     output: true
+  research:
+    output: true
 
 # Other plugins
 scholar:

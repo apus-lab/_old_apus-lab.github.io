@@ -9,4 +9,11 @@ hero_image: /img/home_mcr.gif
 hero_darken: true
 ---
 
-| <font size="5"><br>We continue to expand the <b>frontiers in aerospace engineering</b> by<br>focusing on <b>Modeling</b> as the keystone in the<br><b>Multi-Disciplinary Analysis, Optimization, and Control</b> (MDAOC)<br>of advanced transportation systems.</font> | | | <img src="/img/home_sum.png" width="500"/> |
+<div class="columns is-mobile is-centered is-vcentered">
+  <div class="column is-three-fifths">
+    <font size="5">We continue to expand the <b>frontiers in aerospace engineering</b> by<br>focusing on <b>Modeling</b> as the keystone in the<br><b>Multi-Disciplinary Analysis, Optimization, and Control</b> (MDAOC)<br>of advanced transportation systems.</font>
+  </div>
+  <div class="column">
+    <img src="/img/home_sum.png" width="500"/>
+  </div>
+</div>

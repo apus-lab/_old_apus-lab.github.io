@@ -58,8 +58,6 @@ Mr. Jiwoo Song obtained a B.S. in Aerospace Engineering with a minor in Physics 
 + **Email**: [jzs6565_psu_edu](mailto:jzs6565@psu.edu)
 + **Office**: 7 Hammond
 
-# Research Assistant
-
 ### Abhinav Pandey
 
 Mr. Abhinav Pandey obtained a B.S. in Aerospace Engineering with Honors Thesis option at Penn State. He is now working on the data-driven modeling and optimal control of nonlinear dynamical systems using operator-theoretic methods
