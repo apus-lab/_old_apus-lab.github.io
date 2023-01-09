@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://apus-lab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://apus-lab.github.io/" rel="alternate" type="text/html" /><updated>2023-01-08T23:33:36-05:00</updated><id>https://apus-lab.github.io/feed.xml</id><title type="html">APUS Lab</title><subtitle>Multi-Disciplinary Analysis, Optimization, and Control</subtitle><entry><title type="html">Physics-Infused Reduced-Order Modeling</title><link href="https://apus-lab.github.io/rsch_pirom/" rel="alternate" type="text/html" title="Physics-Infused Reduced-Order Modeling" /><published>2023-01-02T00:00:00-05:00</published><updated>2023-01-02T00:00:00-05:00</updated><id>https://apus-lab.github.io/pirom</id><content type="html" xml:base="https://apus-lab.github.io/rsch_pirom/"><![CDATA[<p><img src="/img/rsch_pirom.png" align="right" width="500" /></p>
+
+<p>We have been developing a novel <strong>physics-infused reduced-order modeling (PIROM)</strong> approach for efficient and accurate modeling of nonlinear dynamical systems. The PIROM consists of</p>
+
+<p>a physics-based dynamical component that</p>
+<ul>
+  <li>represents the known physical processes, and</li>
+  <li>ensures validity of the model over a wide range of operating conditions</li>
+</ul>
+
+<p>and a data-driven dynamical component that</p>
+<ul>
+  <li>represents the unknown physical processes, and</li>
+  <li>corrects the dynamics for higher predictive fidelity</li>
+</ul>
+
+<p>Both components are <strong>differential equations</strong>, and hence new algorithms based on <strong>optimal control theory</strong> are developed to train these models.</p>
+
+<p><br clear="right" /></p>
+
+<p><img src="/img/post_2301_2.png" align="right" width="700" /></p>
+
+<p>One benchmark problem that we considered is the high-speed aerothermal modeling of a heat-conducting and deforming structure.  The PIROM demonstrated superior performance than the conventional surrogate models, in terms of <strong>accuracy, sampling efficiency, and generalizability</strong> over a wide range of operating conditions and structural boundary conditions.</p>
+
+<p>Furthermore, the PIROM-based aerothermal model is applied to the aerothermal load modeling for <strong>hypersonic aerothermoelastic (ATE)</strong> analysis and is found to accelerate the ATE simulations by two to three orders of magnitude while maintaining an accuracy comparable to high-fidelity solutions based on computational fluid dynamics.</p>
+
+<p>Figure on the right illustrates the superior capability of PIROM in <strong>coupled</strong> ATE simulation in a scenario <strong>unseen</strong> to all models.</p>
+<ul>
+  <li>TVI - physics-based differential model: Simple but not accurate</li>
+  <li>POD/Kriging - conventional surrogate: Brutal force and limited range of applicability</li>
+  <li>PIROM - Accurate and generalizable.</li>
+</ul>
+
+<p>Note that coupled analysis is the most challenging scenario for testing a ROM, as <strong>modeling errors propagates and accumulates over time</strong>.</p>
+
+<p><br clear="right" /></p>
+
+<p>The PIROM-based ATE solver is further demonstrated by a parametric study on the effects of boundary conditions and rib supports on the ATE response of a compliant and heat-conducting panel structure. The results not only reveal the <strong>dramatic snap-through behavior</strong> with respect to spring constraints of boundary conditions but also demonstrate the potential of the PIROM to facilitate the rapid and accurate <strong>design and optimization of multidisciplinary systems such as hypersonic structures</strong>.</p>
+
+<p>For more details, see our papers <a href="">SciTech2020</a>, <a href="">SciTech2021</a>, <a href="">SciTech2022</a>, and <a href="https://arc.aiaa.org/doi/10.2514/1.J062214">AIAAJ2023</a>.</p>]]></content><author><name>Daning Huang</name></author><category term="news" /><category term="research" /><category term="Publication" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Going to AIAA SciTech 2023</title><link href="https://apus-lab.github.io/news_st23/" rel="alternate" type="text/html" title="Going to AIAA SciTech 2023" /><published>2022-12-29T00:00:00-05:00</published><updated>2022-12-29T00:00:00-05:00</updated><id>https://apus-lab.github.io/st23</id><content type="html" xml:base="https://apus-lab.github.io/news_st23/"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><img src="/img/post_2212_1.png" width="600" /></td>
+      <td><br /><br /><img src="/img/post_2212_2.png" width="600" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For the coming AIAA SciTech 2023 conference we are able to complete and submit two papers spanning over a range of research fields, with our collaborators. Here are the summaries:</p>
+
+<h2 id="aeroelastic-scaling">Aeroelastic Scaling</h2>
+<p>Design of an Aeroelastically Scaled Model in a Compressed Air Wind Tunnel Facility Using Multifidelity Multi-Objective Bayesian Optimization</p>
+<ul>
+  <li>Daning Huang, <a href="https://sites.psu.edu/csdl/">Ashwin Renganathan</a>, <a href="https://fluids.psu.edu/">Mark A. Miller</a></li>
+  <li>This paper presents the design of a <strong>geometrically nonlinear aeroelastically scaled model</strong> in a <strong>compressed air wind tunnel (CAWT)</strong> facility using a two-pronged approach that integrates the classical <strong>dimensional analysis</strong> and a systematic <strong>multi-disciplinary optimization</strong> procedure.</li>
+  <li>This is unique combination of three research groups at Penn State - <strong>our computational modeling</strong> in aeroelasticity and <strong>numerical scaling</strong> methodology, Dr. Renganathan’s <strong>Bayesian optimization</strong> techniques, and Dr. Miller’s one-of-a-kind <strong>CAWT facility</strong>.</li>
+  <li><a href="https://drive.google.com/file/d/1Y1Unb0Q-Nxgug0pIUqDGytQFMy0uzHss/view?usp=sharing">Here</a> are the 10-min slides for this paper.</li>
+</ul>
+
+<h2 id="landing-of-evtol">Landing of eVTOL</h2>
+<p>Optimal Landing Control of eVTOL Vehicles Using ODE-Based Aerodynamic Model</p>
+<ul>
+  <li><a href="http://volweb.utk.edu/~zwang124/resume.html">Zhenbo Wang</a>, Yufei Wu, Daning Huang</li>
+  <li>We propose a novel approach to optimal landing control of electric vertical takeoff and landing (eVTOL) vehicles for potentially wide applications such as <strong>urban air mobility (UAM)</strong>, passenger transportation, package delivery, and aircraft carrier landing missions.</li>
+  <li>Particularly we aim to develop efficient algorithms that facilitate generation of <strong>accurate optimal landing trajectories</strong> for eVTOL vehicles under operational constraints considering <strong>high-fidelity aerodynamic models</strong>.</li>
+</ul>]]></content><author><name>Daning Huang</name></author><category term="news" /><category term="research" /><category term="Publication" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">High-Speed Fluid-Thermal-Structural Interaction on Complex Geometry</title><link href="https://apus-lab.github.io/rsch_csr/" rel="alternate" type="text/html" title="High-Speed Fluid-Thermal-Structural Interaction on Complex Geometry" /><published>2022-12-12T00:00:00-05:00</published><updated>2022-12-12T00:00:00-05:00</updated><id>https://apus-lab.github.io/csr</id><content type="html" xml:base="https://apus-lab.github.io/rsch_csr/"><![CDATA[<p>We have been expanding our study of <a href="/rsch_hypate/">hypersonic aerothermoelasticity</a>, or more generally <strong>high-speed fluid-thermal-structural interaction</strong> (FTSI), with more complex and realistic flow physics, e.g., acoustic radiation of turbulent flow, shock wave/boundary-layer interaction, and shear layer oscillations.</p>
+
+<p><img src="/img/rsch_csr3d.gif" align="left" width="600px" /></p>
+
+<p>To tackle these problems, we <strong>resolve the complex flow phenomena</strong> using higher-fidelity tools such as Large Eddy Simulation (LES) and implicit LES, in a setting that is <strong>coupled to other physical domains</strong>, i.e., structural dynamics and conjugate heat transfer.</p>
+
+<p>For example, in one of our recent works, we collaborated with experimentalists from Sandia National Labs (SNL) and numerical analysts from US Air Force Academy (USAFA) to investigate the FTSI a <strong>cone-slice-ramp (CSR) geometry</strong> with a wedge angle of 30 degrees subjected to a low Reynolds number inflow at Mach 8.
+The computational costs are kept tractable by decomposing the numerical frameworks into a quasi-steady FTSI (QS-FTSI) analysis and a transient fluid-structure interaction (FSI) analysis, leveraging the <strong>time-scale disparity</strong>. The time-resolved and the time-averaged solutions obtained from the laminar fluid solvers are validated to assess the modeling accuracy of the mean flow features and their unsteady characteristics.</p>
+
+<p><br clear="left" /></p>
+
+<p><img src="/img/post_2112.png" align="right" width="500" /></p>
+
+<ul>
+  <li>The predictions show <strong>all the major flow features generated on the CSR</strong> with low-frequency oscillation and the shear layer flapping at a higher frequency, as well as upstream and downstream legs of streamwise vortices that cannot be easily observed in the experiment.</li>
+  <li>The QS-FTSI analysis accurately reproduces the experimental results and reveals the <strong>streamwise vortices</strong> to be the dominant source heating the structure.</li>
+  <li>The transient FSI analysis reproduces the dominant structural frequencies and reveals the <strong>oscillating shear layer</strong> to be the dominant driving force for the compliant panel.</li>
+</ul>
+
+<p>The findings lead to further investigation of the flow mechanisms, which is to be accomplished by <a href="/research/#scientific-data-analysis">analysis techniques for spatiotemporal data</a>.</p>
+
+<p>For more details see our work <a href="https://doi.org/10.2514/6.2021-0911">SciTech2021</a>, <a href="https://doi.org/10.2514/6.2022-0291">SciTech2022</a>, and a coming up AIAAJ paper.</p>
+
+<p>We have an array of works that involve a broad range of collaborators from SNL, USAFA, Univ. of Michigan, etc.  Relevant funds: <a href="/award_snl_22/">SNL</a></p>
+
+<p><br clear="right" /></p>]]></content><author><name>Daning Huang</name></author><category term="news" /><category term="research" /><category term="Publication" /><summary type="html"><![CDATA[We have been expanding our study of hypersonic aerothermoelasticity, or more generally high-speed fluid-thermal-structural interaction (FTSI), with more complex and realistic flow physics, e.g., acoustic radiation of turbulent flow, shock wave/boundary-layer interaction, and shear layer oscillations.]]></summary></entry><entry><title type="html">Research contract awarded from Sandia NL</title><link href="https://apus-lab.github.io/award_snl_22/" rel="alternate" type="text/html" title="Research contract awarded from Sandia NL" /><published>2022-12-07T00:00:00-05:00</published><updated>2022-12-07T00:00:00-05:00</updated><id>https://apus-lab.github.io/snl</id><content type="html" xml:base="https://apus-lab.github.io/award_snl_22/"><![CDATA[<p>Together with researchers from the Sandia National Labs, we will further our <a href="/st22/">previous study</a> on the high-speed fluid-thermal-structural interaction problem on a complex geometry, with a goal to elucidate the major instability mechanisms in this coupled dynamical system.</p>]]></content><author><name>Daning Huang</name></author><category term="news" /><category term="Funding" /><summary type="html"><![CDATA[Together with researchers from the Sandia National Labs, we will further our previous study on the high-speed fluid-thermal-structural interaction problem on a complex geometry, with a goal to elucidate the major instability mechanisms in this coupled dynamical system.]]></summary></entry><entry><title type="html">Operator-Theoretic Analysis for Spatiotemporal Dynamics</title><link href="https://apus-lab.github.io/rsch_std/" rel="alternate" type="text/html" title="Operator-Theoretic Analysis for Spatiotemporal Dynamics" /><published>2022-11-30T00:00:00-05:00</published><updated>2022-11-30T00:00:00-05:00</updated><id>https://apus-lab.github.io/koop</id><content type="html" xml:base="https://apus-lab.github.io/rsch_std/"><![CDATA[<p><img src="/img/rsch_dmd.gif" align="left" width="500" /></p>
+
+<p>Modal analysis has been a standard and fundamental technique for the <strong>characterization, understanding, and modeling</strong> of dynamical systems, by extracting out <strong>physically-important spatial and temporal features</strong>. Modal analysis has been extensively applied to mechanical and structural systems, and is also recently becoming common practice in the analysis of, e.g., fluid dynamics and energy systems (such as power grids).</p>
+
+<p>Modal analysis naturally extends to the Koopman operator theory, such that a <strong>nonlinear, spatiotemporally evolving, dynamical system</strong> can be (nearly) exactly transformed into a linear system.  Such <strong>operator-theoretic</strong> techniques provide insights into the system dynamics in terms of <strong>stability, time scales, controllability/observability</strong>, etc., which are otherwise not easily attainable for nonlinear systems.  Such insights can facilitate the <strong>discovery of unknown physical mechanisms</strong> hidden in the system, as well as inform the <strong>design of controllers</strong> for realistic engineering systems, such as aerial robots and power grids.</p>
+
+<p><br clear="left" /></p>
+
+<p><img src="/img/rsch_koop.png" align="right" width="400px" /></p>
+
+<p>Currently we focus on the data-driven approaches based on the operator-theoretic techniques, with applications to an expanding list of engineering problems, including</p>
+<ul>
+  <li>Hypersonic fluid-thermal-structural interaction problems (<a href="/news_st22/">SciTech2022</a>)</li>
+  <li>Flow stability of high-speed shear layers (<a href="/news_aps22/">APS DFD22</a>)</li>
+  <li>Dynamics of power grid systems (<a href="https://arxiv.org/abs/2205.03214">paper</a>, <a href="/award_amps_22">fund</a>)</li>
+</ul>
+
+<p><br clear="right" /></p>]]></content><author><name>Daning Huang</name></author><category term="research" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">APUS @ APS DFD 2022</title><link href="https://apus-lab.github.io/news_aps22/" rel="alternate" type="text/html" title="APUS @ APS DFD 2022" /><published>2022-11-22T00:00:00-05:00</published><updated>2022-11-22T00:00:00-05:00</updated><id>https://apus-lab.github.io/aps</id><content type="html" xml:base="https://apus-lab.github.io/news_aps22/"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><img src="/img/post_2211_2.png" width="700" /></td>
+      <td><img src="/img/post_2211_3.jpeg" width="500" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This year we presented one paper at the APS DFD conference in Indianapolis, IN, in collaboration with <a href="https://www.mae.ncsu.edu/people/chi-an-yeh/">Dr. Chi-An Yeh</a>’s group at the North Carolina State University.</p>
+
+<p>The paper, <a href="https://meetings.aps.org/Meeting/DFD22/Session/L18.9">“Modal analysis of a shear layer in high-supersonic cavity flows using data-driven and operator-based resolvent analysis”</a>, aims to analyze shear layer oscillations (SLO), a common phenomena in aerospace applications, that may induce unfavorable acoustic radiation and structural fatigue.</p>
+
+<p>SLO driving mechanism over open cavity flows at subsonic and supersonic speeds has been well studied. However, for SLO over a cavity in high supersonic flows, the stability properties are relatively unexplored, i.e., for flow regimes beyond Mach 3. The classical Rossiter model fails to predict the SLO characteristics. Therefore, in this work resolvent analysis has been employed to identify the dominant dynamic mechanisms and modal characteristics of self-sustained SLO at high Mach numbers. In particular, the resolvent analyses are performed using data-driven and operator-based frameworks. The comparisons between both implementations will be highlighted for the resolvent modes and spectra. We will also discuss the influence of the baseflows due to the differences in the solver fidelity. With a series of implicit large-eddy simulations at Mach numbers 2 to 5, we observe a weak coupling between standing waves within the cavity and SLO. The strong compression/expansion waves on the shear layer and cavity wall reflected Mach waves significantly contribute to the SLO characteristics.</p>]]></content><author><name>Daning Huang</name></author><category term="news" /><category term="Publication" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Control Co-Design of Hypersonic Vehicles</title><link href="https://apus-lab.github.io/rsch_hyp_ccd/" rel="alternate" type="text/html" title="Control Co-Design of Hypersonic Vehicles" /><published>2022-10-10T00:00:00-04:00</published><updated>2022-10-10T00:00:00-04:00</updated><id>https://apus-lab.github.io/geom</id><content type="html" xml:base="https://apus-lab.github.io/rsch_hyp_ccd/"><![CDATA[<p>This work is in collaboration with Dr. <a href="http://volweb.utk.edu/~zwang124/resume.html">Zhenbo Wang</a>’s group at Univ. of Tennessee, Knoxville, and it makes a milestone in our pursuit for the integration of high-fidelity discipline models, design optimizations, and optimal controller design.</p>
+
+<p>Specifically, the motivation is that recent advances in efficient optimization algorithms and high-performance computing allow
+the construction of integrated design frameworks wherein the <strong>traditionally segregated disciplines</strong>
+such as airframe design and trajectory design can be coupled together in order to undertake the
+design and optimization of vehicles as <strong>integrated systems in a larger design space</strong>.</p>
+
+<p>This paper we demonstrated the potential of this concept by incorporating <strong>high-fidelity aerodynamic models</strong>
+and <strong>trajectory optimization techniques</strong> in hypersonic vehicle designs by incrementally varying
+the geometric parameters of the vehicle to observe induced performance variations and optimize
+these parameters for specific mission profiles using Bayesian optimization.</p>
+
+<p><img src="/img/post_2210_1.png" width="600" /></p>
+
+<p>For more details see our papers <a href="https://doi.org/10.2514/6.2021-0715">SciTech2021</a>, <a href="https://doi.org/10.2514/6.2022-1304">SciTech2022</a>, and <a href="https://arc.aiaa.org/doi/full/10.2514/1.C036980">JA2022</a>.</p>]]></content><author><name>Daning Huang</name></author><category term="news" /><category term="research" /><category term="Publication" /><summary type="html"><![CDATA[This work is in collaboration with Dr. Zhenbo Wang’s group at Univ. of Tennessee, Knoxville, and it makes a milestone in our pursuit for the integration of high-fidelity discipline models, design optimizations, and optimal controller design.]]></summary></entry><entry><title type="html">Congrats to Mr. Carlos Vargas Venegas for passing his Ph.D. candidacy exam!</title><link href="https://apus-lab.github.io/news/2022/09/27/cvv-cand/" rel="alternate" type="text/html" title="Congrats to Mr. Carlos Vargas Venegas for passing his Ph.D. candidacy exam!" /><published>2022-09-27T00:00:00-04:00</published><updated>2022-09-27T00:00:00-04:00</updated><id>https://apus-lab.github.io/news/2022/09/27/cvv-cand</id><content type="html" xml:base="https://apus-lab.github.io/news/2022/09/27/cvv-cand/"><![CDATA[<p>Carlos started his journey with the APUS lab as a Master’s student and graduated in April 2022, and now he has passed the qualifying exam and become an official Ph.D. student. Good job!</p>]]></content><author><name>Daning Huang</name></author><category term="news" /><category term="Student" /><category term="CarlosVV" /><summary type="html"><![CDATA[Carlos started his journey with the APUS lab as a Master’s student and graduated in April 2022, and now he has passed the qualifying exam and become an official Ph.D. student. Good job!]]></summary></entry><entry><title type="html">Geometric Deep Learning for Dynamics on Graphs</title><link href="https://apus-lab.github.io/rsch_dgn/" rel="alternate" type="text/html" title="Geometric Deep Learning for Dynamics on Graphs" /><published>2022-09-01T00:00:00-04:00</published><updated>2022-09-01T00:00:00-04:00</updated><id>https://apus-lab.github.io/dgn</id><content type="html" xml:base="https://apus-lab.github.io/rsch_dgn/"><![CDATA[<p>Often a complex engineering system can be modeled as <strong>a system of subsystems</strong> that interact with each other and with the environment.  Leveraging the connectivity between the subsystems, i.e., the <strong>topology</strong>, can greatly reduce the efforts in the modeling, optimization, and control of such systems.
+The geometric deep learning technique, esp., <strong>graph neural networks</strong> (GNNs), is an effective and powerful tool for the <strong>topology-informed modeling</strong> of complex systems, with a few unique features:</p>
+<ul>
+  <li><strong>Training efficiency and scalability</strong>: The GNNs model localized interactions between the subsystems; thus can be trained on datasets of small systems and scale up to large inter-connected systems</li>
+  <li><strong>Missing data completion</strong>: The GNNs reconstruct missing dynamical states by leveraging spatiotemporal correlations as well as time-delay embedding theorems in dynamical system theory</li>
+</ul>
+
+<p>Recently, we have been able to apply GNNs for various applications,
+from the vanilla modeling of dynamics</p>
+<ul>
+  <li>Power grid dynamics (Figure left below, <a href="arxiv.org/abs/2204.08557">paper</a>, <a href="/award_amps_22/">fund</a>)</li>
+  <li>Ship airwakes (Figure right below, <a href="doi.org/10.2514/6.2022-2533">paper</a>)</li>
+  <li>Heatwave forecasting (Paper to come)</li>
+</ul>
+
+<p>to the control of inter-connected systems, such as</p>
+<ul>
+  <li>Hierarchical control of electrothermal systems (<a href="/award_icds_22/">fund</a>)</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/img/rsch_dgn_power.gif" width="400" /></td>
+      <td><img src="/img/rsch_dgn_wake.gif" width="400" /></td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Daning Huang</name></author><category term="research" /><summary type="html"><![CDATA[Often a complex engineering system can be modeled as a system of subsystems that interact with each other and with the environment. Leveraging the connectivity between the subsystems, i.e., the topology, can greatly reduce the efforts in the modeling, optimization, and control of such systems. The geometric deep learning technique, esp., graph neural networks (GNNs), is an effective and powerful tool for the topology-informed modeling of complex systems, with a few unique features: Training efficiency and scalability: The GNNs model localized interactions between the subsystems; thus can be trained on datasets of small systems and scale up to large inter-connected systems Missing data completion: The GNNs reconstruct missing dynamical states by leveraging spatiotemporal correlations as well as time-delay embedding theorems in dynamical system theory]]></summary></entry><entry><title type="html">Welcome New Lab Member – Mr. Jiwoo Song</title><link href="https://apus-lab.github.io/news/2022/08/30/jzs/" rel="alternate" type="text/html" title="Welcome New Lab Member – Mr. Jiwoo Song" /><published>2022-08-30T00:00:00-04:00</published><updated>2022-08-30T00:00:00-04:00</updated><id>https://apus-lab.github.io/news/2022/08/30/jzs</id><content type="html" xml:base="https://apus-lab.github.io/news/2022/08/30/jzs/"><![CDATA[<p><img src="/img/head_jiwoo_song.png" width="400" /></p>
+
+<p>Mr. Jiwoo Song obtained a B.S. in Aerospace Engineering with a minor in Physics at Penn State in Spring 2022.  He graduated with an Honors Thesis: “Nonlinear Dynamic Modal and Stability Analysis of Synthesized Flow Field of Hall Thruster”.  Now he joins he is currently pursuing a Master’s of Science degree in Aerospace Engineering with an emphasis on the multi-disciplinary modeling of aerial vehicles and modal analysis of high-dimensional dynamical systems using probability- and operator-theoretic methods.</p>]]></content><author><name>Daning Huang</name></author><category term="news" /><category term="Student" /><category term="JiwooS" /><summary type="html"><![CDATA[]]></summary></entry></feed>
