@@ -37,6 +37,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-scholar
   - kramdown-parser-gfm
+  - github-pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
