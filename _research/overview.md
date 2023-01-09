@@ -31,15 +31,15 @@ While there are relatively mature solutions for each single disciplinary/subsyst
 <img src="/img/post_2109.png" align="right" width="600px"/>
 
 The crux of integrated MDAOC is the modeling of complex multi-physics dynamics.  And this is a **"holy grail"** problem:  Is it possible to find **one** mathematical model that is
-+ **Accurate to reproduce the dynamics**
-  - Over a wide range of operating conditions
-  - Capturing nonlinearities such as bifurcations and limit cycles
-+ **Computationally efficient to evaluate**
-  - Supports automatic differentiation for optimization
-  - Amenable for deployment on hardware and real-time computing
-+ **Supports infinite-dimensional parameters**
-  - Geometrical shapes, as distributed parameters, for optimization
-  - Control inputs, as time-varying parameters, for autonomy
++ **Accurate to reproduce the dynamics**, that
+  - Works over the entire range of operating conditions
+  - Captures nonlinearities such as bifurcations and limit cycles
++ **Computationally efficient to evaluate**, that
+  - Supports automatic differentiation for large-scale optimization
+  - Suits for deployment on hardware and real-time computing
++ **Supports infinite-dimensional parameters**, e.g,
+  - Geometrical shapes and material properties, as distributed parameters, for optimization
+  - Control inputs and system states, as time-varying parameters, for autonomy
 
 Usually, it is impossible to have all three bullets at the same time, just like the [impossible trinity](https://en.wikipedia.org/wiki/Impossible_trinity).
 
