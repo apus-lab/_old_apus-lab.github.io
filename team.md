@@ -7,9 +7,9 @@ hide_footer: true
 
 # Principal Investigator
 
-### Dr. Daning Huang
+<img src="/img/head_daning_huang.jpeg" align="right" width="200"/>
 
-<img src="/img/head_daning_huang.jpeg" width="200"/>
+### Dr. Daning Huang
 
 Dr. Daning Huang joined Penn State in 2019. He received his bachelor’s degree in Aerospace Engineering from Nanjing University of Aeronautics and Astronautics, Nanjing, China in 2013 and earned his master’s and doctoral degree in Aerospace Engineering from the University of Michigan, Ann Arbor in 2014 and 2019, respectively.
 + **Email**: [daning_psu_edu](mailto:daning@psu.edu)
@@ -17,11 +17,13 @@ Dr. Daning Huang joined Penn State in 2019. He received his bachelor’s degree 
 + [Curriculum Vitae](https://drive.google.com/file/d/18StXgt5bBQ6W6CyZwbltr9VHm-jAfYxm/view?usp=sharing)
 + *Per aspera ad astra.*
 
+<br clear="right"/>
+
 # Ph.D. Students
 
-### Aravinth Sadagopan
+<img src="/img/head_aravinth_sadagopan.jpeg" align="right" width="200"/>
 
-<img src="/img/head_aravinth_sadagopan.jpeg" width="200"/>
+### Aravinth Sadagopan
 
 Mr. Aravinth Sadagopan received his B. Tech (Aerospace Engineering) in 2016 from Amrita Vishwa Vidyapeetham, India and his Master’s degree in 2019 from Penn State with a “Distinguished Masters’ Thesis Award”. Now he is working on high-speed fluid-thermal-structural interaction problems with an emphasis on flow stability analysis.
 
@@ -29,41 +31,62 @@ Mr. Aravinth Sadagopan received his B. Tech (Aerospace Engineering) in 2016 from
 + **Office**: 7 Hammond
 + *Dream is not what you see in sleep, it is something that does not let you sleep. - A. P. J. Abdul Kalam*
 
-### Yin Yu
+<br clear="right"/>
 
-<img src="/img/head_yin_yu.png" width="200" />
+<img src="/img/head_yin_yu.png" align="right" width="200" />
+
+### Yin Yu
 
 Mr. Yin Yu received his dual bachelor’s degree in Aerospace Engineering from the University of Michigan, Ann Arbor in 2014, in Mechanical Engineering from Shanghai Jiao Tong University, Shanghai, China in 2015, and earned his master’s degree in Aerospace Engineering from U of M. in 2016. Now he is working on geometric deep learning for aerospace and generic engineering applications with an emphasis on dynamical system modeling.
 
 + **Email**: [yzy5368_psu_edu](mailto:yzy5368@psu.edu)
 + **Office**: 7 Hammond
 
-### Carlos Vargas Venegas
+<br clear="right"/>
 
-<img src="/img/head_carlos_vargas_venegas.jpeg" width="200" />
+<img src="/img/head_carlos_vargas_venegas.jpeg" align="right" width="200" />
+
+### Carlos Vargas Venegas
 
 Mr. Carlos Vargas Venegas attended the University of Costa Rica in 2016 and later transferred to Penn State, where he received his bachelor’s and master's degrees, both in Aerospace Engineering with a minor in Math, in 2019 and 2021, respectively. He is currently working on hypersonics and reduced-order modeling using an integrated optimal control and data-physics-infusion approach.
 
 + **Email**: [cvv5110_psu_edu](mailto:cvv5110@psu.edu)
 + **Office**: 7 Hammond
 
+<br clear="right"/>
+
 # Master’s Student
 
-### Jiwoo Song
+<img src="/img/head_jiwoo_song.png" align="right" width="200" />
 
-<img src="/img/head_jiwoo_song.png" width="200" />
+### Jiwoo Song
 
 Mr. Jiwoo Song obtained a B.S. in Aerospace Engineering with a minor in Physics with Honors Thesis option at Penn State. He is now working on the multi-disciplinary modeling of aerial vehicles and modal analysis of high-dimensional dynamical systems using probability- and operator-theoretic methods.
 
 + **Email**: [jzs6565_psu_edu](mailto:jzs6565@psu.edu)
 + **Office**: 7 Hammond
 
+<br clear="right"/>
+
+<img src="/img/head_default.png" align="right" width="200" />
+
 ### Abhinav Pandey
 
 Mr. Abhinav Pandey obtained a B.S. in Aerospace Engineering with Honors Thesis option at Penn State. He is now working on the data-driven modeling and optimal control of nonlinear dynamical systems using operator-theoretic methods
 
 + **Email**: [afp5571_psu_edu](mailto:afp5571@psu.edu)
-+ **Office**: 7 Hammond
++ **Office**: N/A
+
+<br clear="right"/>
+
+<img src="/img/head_default.png" align="right" width="200" />
+
+### Khalid Al Riyami
+
++ **Email**: [kza5439_psu_edu](mailto:kza5439@psu.edu)
++ **Office**: N/A
+
+<br clear="right"/>
 
 # Undergraduate Students
 + Bayu Prasetyo (UG, MC-REU, 05/30/21-)
