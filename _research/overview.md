@@ -83,7 +83,7 @@ blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 
 **Relevant Projects:**
-+ [Operator/Measure-theoretic analysis for Spatiotemporal Dynamics](/test_research/)
++ [Operator-Theoretic Analysis for Spatiotemporal Dynamics](/rsch_std/)
 + [Design of Aeroelastically Scaled Model in a Compressed Air Wind Tunnel Facility](/news_st23/#aeroelastic-scaling)
 + [Refined Hypersonic Aerothermoelastic Scaling Laws](/rsch_ate_scl/)
 <br clear="right"/>
@@ -102,7 +102,7 @@ blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 
 **Relevant Projects:**
 + [Physics-Infused Reduced-Order Modeling](/rsch_pirom/)
-+ [Geometric Deep Learning for Dynamics on Graphs](/test_research/)
++ [Geometric Deep Learning for Dynamics on Graphs](/rsch_dgn/)
 + [Fluid-Thermal-Structural Interaction Using Multi-Fidelity Multi-Variate Surrogate](/rsch_ht_ftsi/)
 + [Reduced-Order Modeling of Hypersonic Aerothermodynamics](/rsch_rom_scl/)
 <br clear="right"/>
