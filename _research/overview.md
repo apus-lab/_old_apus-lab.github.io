@@ -37,7 +37,7 @@ The crux of integrated MDAOC is the modeling of complex multi-physics dynamics. 
 + **Computationally efficient to evaluate**, that
   - Supports automatic differentiation for large-scale optimization
   - Suits for deployment on hardware and real-time computing
-+ **Supports infinite-dimensional parameters**, e.g,
++ **Supports infinite-dimensional parameters**, e.g.,
   - Geometrical shapes and material properties, as distributed parameters, for optimization
   - Control inputs and system states, as time-varying parameters, for autonomy
 
