@@ -6,14 +6,14 @@ hide_footer: true
 ---
 
 # AERSP 313: Aerospace Analysis
-**Semesters**: Falls of 2019, 2020, 2021, 2022 ([Online examples](aersp313.herokuapp.com), continuously developing)
+**Semesters**: Falls of 2019, 2020, 2021, 2022 ([Online examples](https://aersp313.herokuapp.com), continuously developing)
 
 This course is designed to reinforce the mathematical concepts learned in the prerequisite mathematics and computer science courses and to present new mathematical material that is necessary for aeronautics, astronautics, dynamics and control, and fluid dynamics analysis. In practice, analytical and numerical approaches to problem-solving are complementary; hence, this course will emphasize a combined analytical and numerical treatment.
 
 **Student comment**: “What do you call a wizard who is good at calculus? – A mathemagician.”
 
 # AERSP 597: Machine Learning in Aerospace Engineering
-**Semester**: Springs of 2020 ([notes](git.psu.edu/dfh5340/aersp597_notes)), 2022 ([slides](smanist.github.io/ML_in_AERSP/index.html))
+**Semester**: Springs of 2020 ([notes](https://git.psu.edu/dfh5340/aersp597_notes)), 2022 ([slides](https://smanist.github.io/ML_in_AERSP/index.html))
 
 The course (1) covers the machine learning techniques for the data-driven modeling and data analysis with emphasis on aerospace engineering applications, and (2) exposes the students to the latest advances in the data-driven modeling studies that would be beneficial to their research. Specifically, the course consists of four topics: (a) mathematical background, (b) regression, (c) reduced-order modeling, and (d) data-driven modeling of dynamical systems. These topics are accompanied by case studies representing the application of machine learning techniques in aerospace engineering research. Knowledge of multivariate calculus and basic linear algebra is required, and some familiarity with probability would be helpful.
 
