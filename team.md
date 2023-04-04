@@ -72,18 +72,9 @@ Mr. Jiwoo Song obtained a B.S. in Aerospace Engineering with a minor in Physics 
 
 ### Abhinav Pandey
 
-Mr. Abhinav Pandey obtained a B.S. in Aerospace Engineering with Honors Thesis option at Penn State. He is now working on the data-driven modeling and optimal control of nonlinear dynamical systems using operator-theoretic methods
+Mr. Abhinav Pandey obtained a B.S. in Aerospace Engineering with Honors Thesis option at Penn State. He is now working on the data-driven modeling and optimal control of nonlinear dynamical systems using operator-theoretic methods. Abhinav is officially affiliated with [Dr. Junyi Geng's group](https://aerogjy.github.io/).
 
 + **Email**: [afp5571_psu_edu](mailto:afp5571@psu.edu)
-+ **Office**: N/A
-
-<br clear="right"/>
-
-<img src="/img/head_default.png" align="right" width="200" />
-
-### Khalid Al Riyami
-
-+ **Email**: [kza5439_psu_edu](mailto:kza5439@psu.edu)
 + **Office**: N/A
 
 <br clear="right"/>
@@ -99,7 +90,7 @@ Mr. Abhinav Pandey obtained a B.S. in Aerospace Engineering with Honors Thesis o
 + Xinpeng Zhao (UG, 01/15/20-12/15/21)
 + Vincent Cao (UG, 04/30/21-12/15/21)
 + John G. Biscanti (UG, 04/30/21-12/15/21)
-+ Ryan Banks Glenn (UG with Thesis, 08/30/21-12/15/21)
++ Ryan Banks Glenn (UG with thesis, 08/30/21-12/15/21)
 + Steven Jay Davis (UG, 04/30/2021-12/15/21)
 + Christopher Cosgrove (UG, 10/30/21-12/15/21)
 

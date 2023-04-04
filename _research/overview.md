@@ -75,7 +75,7 @@ We develop ROMs for **efficient, accurate, and robust prediction** of system dyn
 
 #### Control and Autonomy
 We integrate ROMs and control & autonomy to achieve the **full-stack design optimization** of an engineering system.
-+ Rapid Aeroservoelastic Design of Morphing Unmanned Aerial Vehicles (Details coming soon)
++ Rapid Aeroservoelastic Design of Morphing Unmanned Aerial Vehicles (details coming soon; [media coverage](https://news.engr.psu.edu/2023/huang-daning-army-grant-drones-project.aspx))
 + [Enhanced Control for eVTOL Vehicles Using Higher-Fidelity Aerodynamic Model](/news_st23/#landing-of-evtol)
 + [Control Co-Design of Hypersonic Vehicles](/rsch_hyp_ccd/)
 
