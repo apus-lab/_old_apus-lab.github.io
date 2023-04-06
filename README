@@ -5,9 +5,13 @@ Hence the minimal steps to update are:
 ```
 jekyll build
 ```
++ To check the website locally,
+```
+jekyll serve
+```
 + cd to `_site` and push the changes
 ```
-git add -a
+git add -A
 git commit -m "message"
 git push
 ```
