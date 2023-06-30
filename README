@@ -5,9 +5,20 @@ Hence the minimal steps to update are:
 ```
 jekyll build
 ```
++ To check the website locally,
+```
+jekyll serve
+```
 + cd to `_site` and push the changes
 ```
-git add -a
+git add -A
 git commit -m "message"
 git push
 ```
+
+For working with shared files from Google Drive.
+1. Enable access of ``Anyone with the link''
+2. In the settings, disable options for edit, download, etc.
+
+Post writing:
+1. If a paper, make sure to add ``research'' in categories as well.
