@@ -14,7 +14,7 @@ hide_footer: true
 Dr. Daning Huang joined Penn State in 2019. He received his bachelor’s degree in Aerospace Engineering from Nanjing University of Aeronautics and Astronautics, Nanjing, China in 2013 and earned his master’s and doctoral degree in Aerospace Engineering from the University of Michigan, Ann Arbor in 2014 and 2019, respectively.
 + **Email**: [daning_psu_edu](mailto:daning@psu.edu)
 + **Office**: 235A Hammond
-+ [Curriculum Vitae](https://drive.google.com/file/d/18StXgt5bBQ6W6CyZwbltr9VHm-jAfYxm/view?usp=sharing)
++ [Curriculum Vitae](https://drive.google.com/file/d/1pONfStbmNZG55IkyRLP9hP6FxlcLxWlj/view?usp=sharing)
 + *Per aspera ad astra.*
 
 <br clear="right"/>
@@ -83,6 +83,8 @@ Mr. Abhinav Pandey obtained a B.S. in Aerospace Engineering with Honors Thesis o
 + Bayu Prasetyo (UG, MC-REU, 05/30/21-)
 + Edgar Ryan (UG, 10/30/22-)
 + Rowan Badler (UG, 12/15/22-)
++ Pingxu Hao (UG, 04/30/23-)
++ Yiran Li (UG, 04/30/23-)
 
 # Alumni
 + Gregory Macchio (UG with thesis, 09/30/19-07/15/21)
