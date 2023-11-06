@@ -68,23 +68,15 @@ Mr. Jiwoo Song obtained a B.S. in Aerospace Engineering with a minor in Physics 
 
 <br clear="right"/>
 
-<img src="/img/head_default.png" align="right" width="200" />
-
-### Abhinav Pandey
-
-Mr. Abhinav Pandey obtained a B.S. in Aerospace Engineering with Honors Thesis option at Penn State. He is now working on the data-driven modeling and optimal control of nonlinear dynamical systems using operator-theoretic methods. Abhinav is officially affiliated with [Dr. Junyi Geng's group](https://aerogjy.github.io/).
-
-+ **Email**: [afp5571_psu_edu](mailto:afp5571@psu.edu)
-+ **Office**: N/A
-
-<br clear="right"/>
-
 # Undergraduate Students
 + Bayu Prasetyo (UG, MC-REU, 05/30/21-)
 + Edgar Ryan (UG, 10/30/22-)
 + Rowan Badler (UG, 12/15/22-)
 + Pingxu Hao (UG, 04/30/23-)
 + Yiran Li (UG, 04/30/23-)
++ Holly Mullin (UG, 08/30/23-)
++ Jaisel Singh (UG, 09/30/23-)
++ Wichayut Lertkittiamornkul (UG, 09/30/23-)
 
 # Alumni
 + Gregory Macchio (UG with thesis, 09/30/19-07/15/21)
