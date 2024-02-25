@@ -70,13 +70,11 @@ Mr. Jiwoo Song obtained a B.S. in Aerospace Engineering with a minor in Physics 
 
 # Undergraduate Students
 + Bayu Prasetyo (UG, MC-REU, 05/30/21-)
-+ Edgar Ryan (UG, 10/30/22-)
-+ Rowan Badler (UG, 12/15/22-)
-+ Pingxu Hao (UG, 04/30/23-)
-+ Yiran Li (UG, 04/30/23-)
 + Holly Mullin (UG, 08/30/23-)
 + Jaisel Singh (UG, 09/30/23-)
 + Wichayut Lertkittiamornkul (UG, 09/30/23-)
++ Amr El Mantawi (UG, 09/30/23-)
++ Ankur Ghorai (UG, 01/15/24-)
 
 # Alumni
 + Gregory Macchio (UG with thesis, 09/30/19-07/15/21)
@@ -87,5 +85,9 @@ Mr. Jiwoo Song obtained a B.S. in Aerospace Engineering with a minor in Physics 
 + Ryan Banks Glenn (UG with thesis, 08/30/21-12/15/21)
 + Steven Jay Davis (UG, 04/30/2021-12/15/21)
 + Christopher Cosgrove (UG, 10/30/21-12/15/21)
++ Edgar Ryan (UG, 10/30/22-12/15/23)
++ Rowan Badler (UG, 12/15/22-12/15/23)
++ Pingxu Hao (UG, 04/30/23-12/15/23)
++ Yiran Li (UG, 04/30/23-12/15/23)
 
 And we are always [open to young bright minds](/joinus/)!
